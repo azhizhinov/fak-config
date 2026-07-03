@@ -2,7 +2,7 @@
 #  which is a slightly modified Miryoku layout.
 
 let keycode = import "fak/keycode.ncl" in
-let { dvorak, to_keycode_segments, .. } = import "lib/layouts.ncl" in
+let { qwerty, to_keycode_segments, .. } = import "lib/layouts.ncl" in
 
 
 # Prelude aliases
