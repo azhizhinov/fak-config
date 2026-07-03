@@ -184,7 +184,7 @@ let make_base_layer = fun alphas_str =>
 # Base Layers
 let base_layers = [
     # 0: Dvorak
-    make_base_layer dvorak,
+    make_base_layer qwerty,
 ] in
 
 
