@@ -2,7 +2,7 @@
 #  which is a slightly modified Miryoku layout.
 
 let keycode = import "fak/keycode.ncl" in
-let { qwerty, to_keycode_segments, .. } = import "lib/layouts.ncl" in
+let { dvorak, to_keycode_segments, .. } = import "lib/layouts.ncl" in
 
 
 # Prelude aliases
@@ -184,7 +184,7 @@ let make_base_layer = fun alphas_str =>
 # Base Layers
 let base_layers = [
     # 0: Dvorak
-    make_base_layer qwerty,
+    make_base_layer dvorak,
 ] in
 
 
